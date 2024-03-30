@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 119
+select = [
+    "E", # pycodestyle
+]
+ignore = ["D415"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
